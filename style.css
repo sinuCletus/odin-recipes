@@ -1,0 +1,55 @@
+* {
+    margin: 0px auto;
+    width: 100%;
+}
+
+body {
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, a, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
+img {
+    height: auto;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+img, p, ul, ol {
+    padding-bottom: 2em;
+}
+
+.recipes {
+    border-left: 20px solid rgb(226, 94, 65);
+    border-right: 10px solid rgb(226, 94, 65);
+    display: block;
+    margin: auto;
+    width: max-content;
+    padding: 5%;
+
+}
